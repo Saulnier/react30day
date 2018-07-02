@@ -4,6 +4,10 @@
 
 And so we start!
 
+This is an example of `inline code`.
+
+### A code chunk is displayed below
+
 ```
 func (gnc *gnc) fortniteDrop(w http.ResponseWriter, r *http.Request) {
 	landingZone := randomLandingZone()
