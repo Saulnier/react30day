@@ -1,24 +1,32 @@
 <html>
-  <Head>
+  <head>
     <meta charset="utf-8">
-    <title>Hello World</title>
-    <!-- React-->
-    <!-- This is Adam's-->
+    <title>Hello world</title>
+    <!-- React -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/react/15.3.1/react-dom.min.js"></script>
     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
   </head>
   <body>
-    <div id="app"></div>
-    <script type="text/babel"
-      class App extends React.Component {
-        render(){
-          return <h1>Hello from our app</h1>
+    <link href="https://gist.githubusercontent.com/auser/2bc34b9abf07f34f602dccd6ca855df1/raw/40c5e7c8cad4c6920fed940fc31cbb63abd94c29/timeline.css" rel="stylesheet" type="text/css" />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
+     <div id="app"></div>
+        <script type="text/babel">
+          class App extends React.Component {
+            render() {
+              return (
+                <div className="notificationFrame">
+                  <div className="panel">
+                    {/* content goes here? */}
+                  </div>
+                </div>
+            )
+            }
         }
-      }
-    </script>
-  <var mount = document.querySelector('#app');
-  ReactDOM.render(<App />, mount);
+    //<!-- What is this doing -->
+    var mount = document.querySelector('#app');
+    ReactDOM.render(<App />, mount);
 
-</body>
+        </script>
+    </body>
 </html>
