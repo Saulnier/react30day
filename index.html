@@ -17,17 +17,17 @@
               return (
                 <div className="notificationFrame">
                   <div className="panel">
+                      <Header title="Timeline" />
+                      <Header title="Profile" />
+                      <Header title="Settings" />
+                      <Header title="Chat" />
                     {/* content goes here? */}
                   </div>
                 </div>
             )
             }
         }
-        {/* Is this in the right spot? */}
-      <Header title="Timeline" />
-      <Header title="Profile" />
-      <Header title="Settings" />
-      <Header title="Chat" />
+      
           class Header extends React.Component {
             render() {
               return (
@@ -84,7 +84,7 @@
             }
           }
     var mount = document.querySelector('#app');
-    ReactDOM.render(<App /> <Header />, mount);
+    ReactDOM.render(<App />, mount);
 
         </script>
     </body>
