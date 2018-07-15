@@ -1,20 +1,15 @@
-# Adam's Website
+# React
 
-## The Beginning
+## 30 Days of react
 
 And so we start!
 
 This is an example of `inline code`.
 
-### A code chunk is displayed below
+### Let's Go!
 
 ```
-func (gnc *gnc) fortniteDrop(w http.ResponseWriter, r *http.Request) {
-	landingZone := randomLandingZone()
-	w.Header().Set("Content-Type", "image/png")
-	w.Header().Set("Content-Length", "1000")
-	gnc.writeLandingZoneImage(landingZone, w)
-	// Save landing zone
-}
+https://www.fullstackreact.com/30-days-of-react/
+
 ```
 
